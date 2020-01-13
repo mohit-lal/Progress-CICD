@@ -1,0 +1,14 @@
+-db     testdb.db
+-ld     testdb
+-H  	localhost
+-S 		40020
+
+-d      mdy
+-E
+-rereadnolock
+-debugalert
+-numsep 44
+-numdec 46
+-s 128
+#-cpinternal UTF-8
+#-cpstream ISO8859-1

@@ -1,0 +1,629 @@
+
+                Wed Jan  8 12:40:26 2020
+[2020/01/08@12:40:26.448+3200] P-12788      T-11020 I DBUTIL   : (451)   prostrct create session begin for mlal on CON:. 
+[2020/01/08@12:40:26.449+3200] P-12788      T-11020 I DBUTIL   : (12862) Structure file F:\git\awesome\myproject\src\testdb.st used to create database with blocksize 4096. 
+[2020/01/08@12:40:26.465+3200] P-12788      T-11020 I DBUTIL   : (334)   prostrct create session end. 
+[2020/01/08@12:40:26.472+3200] P-12788      T-11020 I DBUTIL   : (451)   procopy session begin for mlal on CON:. 
+[2020/01/08@12:40:26.579+3200] P-12788      T-11020 I DBUTIL   : (334)   procopy session end. 
+
+                Wed Jan  8 12:40:26 2020
+[2020/01/08@12:40:26.588+3200] P-12788      T-11020 I          : (451)   procopy get default SQL DBA session begin for mlal on CON:. 
+[2020/01/08@12:40:26.588+3200] P-12788      T-11020 I          : (15321) Before Image Log Initialisation at block 0  offset 7152080. 
+[2020/01/08@12:40:26.636+3200] P-12788      T-11020 I          : (1365)  Database copied from C:\progress\dlc117\sports. 
+[2020/01/08@12:40:26.652+3200] P-12788      T-11020 I          : (15109) At Database close the number of live transactions is 0. 
+[2020/01/08@12:40:26.652+3200] P-12788      T-11020 I          : (15743) Before Image Log Completion at Block 0 Offset 620. 
+[2020/01/08@12:40:26.686+3200] P-12788      T-11020 I          : (334)   procopy get default SQL DBA session end. 
+
+                Wed Jan  8 12:52:49 2020
+[2020/01/08@12:52:49.474+3200] P-2024       T-1424  I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:52:49.985+3200] P-2024       T-1424  I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:52:50.033+3200] P-2024       T-1424  I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:52:50 2020
+[2020/01/08@12:52:50.221+3200] P-10832      T-15392 I BROKER  0: (333)   Multi-user session begin. 
+[2020/01/08@12:52:50.239+3200] P-10832      T-15392 I BROKER  0: (15321) Before Image Log Initialisation at block 0  offset 620. 
+[2020/01/08@12:52:50.244+3200] P-10832      T-15392 I BROKER  0: (452)   Login by SYSTEM on batch. 
+[2020/01/08@12:52:50.268+3200] P-10832      T-15392 I BROKER  0: (5149)  The Host parameter supplied was 10.0.1.218, however, this Host is jv-mohitlal. 
+[2020/01/08@12:52:50.268+3200] P-10832      T-15392 I BROKER  0: (15193) The normal shutdown of the database will continue for 10 Min 0 Sec if required. 
+[2020/01/08@12:52:50.268+3200] P-10832      T-15392 I BROKER  0: (2248)  Begin normal shutdown 
+[2020/01/08@12:52:51.269+3200] P-10832      T-15392 I BROKER  0: (2263)  Resending shutdown request to 0 user(s). 
+[2020/01/08@12:52:55.282+3200] P-10832      T-15392 I BROKER  0: (15109) At Database close the number of live transactions is 0. 
+[2020/01/08@12:52:55.283+3200] P-10832      T-15392 I BROKER  0: (15743) Before Image Log Completion at Block 0 Offset 620. 
+[2020/01/08@12:52:55.284+3200] P-10832      T-15392 I BROKER  0: (453)   Logout by SYSTEM on batch. 
+[2020/01/08@12:52:55.290+3200] P-10832      T-15392 I BROKER   : (16869) Removed shared memory with segment_id: 45613056 
+[2020/01/08@12:52:55.291+3200] P-10832      T-15392 I BROKER   : (334)   Multi-user session end. 
+
+                Wed Jan  8 12:53:03 2020
+[2020/01/08@12:53:03.117+3200] P-15612      T-14888 I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:53:03.118+3200] P-15612      T-14888 I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:53:03.161+3200] P-15612      T-14888 I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:53:03 2020
+[2020/01/08@12:53:03.272+3200] P-19108      T-9208  I BROKER  0: (333)   Multi-user session begin. 
+[2020/01/08@12:53:03.273+3200] P-19108      T-9208  I BROKER  0: (15321) Before Image Log Initialisation at block 0  offset 620. 
+[2020/01/08@12:53:03.276+3200] P-19108      T-9208  I BROKER  0: (452)   Login by SYSTEM on batch. 
+[2020/01/08@12:53:03.284+3200] P-19108      T-9208  I BROKER  0: (5149)  The Host parameter supplied was 10.0.1.218, however, this Host is jv-mohitlal. 
+[2020/01/08@12:53:03.284+3200] P-19108      T-9208  I BROKER  0: (15193) The normal shutdown of the database will continue for 10 Min 0 Sec if required. 
+[2020/01/08@12:53:03.284+3200] P-19108      T-9208  I BROKER  0: (2248)  Begin normal shutdown 
+[2020/01/08@12:53:04.286+3200] P-19108      T-9208  I BROKER  0: (2263)  Resending shutdown request to 0 user(s). 
+[2020/01/08@12:53:08.298+3200] P-19108      T-9208  I BROKER  0: (15109) At Database close the number of live transactions is 0. 
+[2020/01/08@12:53:08.298+3200] P-19108      T-9208  I BROKER  0: (15743) Before Image Log Completion at Block 0 Offset 620. 
+[2020/01/08@12:53:08.299+3200] P-19108      T-9208  I BROKER  0: (453)   Logout by SYSTEM on batch. 
+[2020/01/08@12:53:08.302+3200] P-19108      T-9208  I BROKER   : (16869) Removed shared memory with segment_id: 47251456 
+[2020/01/08@12:53:08.302+3200] P-19108      T-9208  I BROKER   : (334)   Multi-user session end. 
+
+                Wed Jan  8 12:53:57 2020
+[2020/01/08@12:53:57.652+3200] P-18964      T-10848 I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:53:57.655+3200] P-18964      T-10848 I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:53:57.729+3200] P-18964      T-10848 I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:53:57 2020
+[2020/01/08@12:53:57.884+3200] P-14776      T-1280  I BROKER  0: (333)   Multi-user session begin. 
+[2020/01/08@12:53:57.885+3200] P-14776      T-1280  I BROKER  0: (15321) Before Image Log Initialisation at block 0  offset 620. 
+[2020/01/08@12:53:57.930+3200] P-14776      T-1280  I BROKER  0: (452)   Login by SYSTEM on batch. 
+[2020/01/08@12:53:57.960+3200] P-14776      T-1280  I BROKER  0: (5149)  The Host parameter supplied was 10.0.1.218, however, this Host is jv-mohitlal. 
+[2020/01/08@12:53:57.960+3200] P-14776      T-1280  I BROKER  0: (15193) The normal shutdown of the database will continue for 10 Min 0 Sec if required. 
+[2020/01/08@12:53:57.961+3200] P-14776      T-1280  I BROKER  0: (2248)  Begin normal shutdown 
+[2020/01/08@12:53:58.962+3200] P-14776      T-1280  I BROKER  0: (2263)  Resending shutdown request to 0 user(s). 
+[2020/01/08@12:54:02.974+3200] P-14776      T-1280  I BROKER  0: (15109) At Database close the number of live transactions is 0. 
+[2020/01/08@12:54:02.975+3200] P-14776      T-1280  I BROKER  0: (15743) Before Image Log Completion at Block 0 Offset 620. 
+[2020/01/08@12:54:02.975+3200] P-14776      T-1280  I BROKER  0: (453)   Logout by SYSTEM on batch. 
+[2020/01/08@12:54:02.979+3200] P-14776      T-1280  I BROKER   : (16869) Removed shared memory with segment_id: 43122688 
+[2020/01/08@12:54:02.980+3200] P-14776      T-1280  I BROKER   : (334)   Multi-user session end. 
+
+                Wed Jan  8 12:54:17 2020
+[2020/01/08@12:54:17.184+3200] P-7852       T-15248 I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:54:17.186+3200] P-7852       T-15248 I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:54:17.228+3200] P-7852       T-15248 I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:54:17 2020
+[2020/01/08@12:54:17.347+3200] P-14504      T-14956 I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:54:17.349+3200] P-14504      T-14956 I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:54:17.394+3200] P-14504      T-14956 I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:54:24 2020
+[2020/01/08@12:54:24.031+3200] P-11960      T-7132  I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:54:24.033+3200] P-11960      T-7132  I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:54:24.080+3200] P-11960      T-7132  I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:54:42 2020
+[2020/01/08@12:54:42.381+3200] P-18692      T-6600  I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:54:42.383+3200] P-18692      T-6600  I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:54:42.430+3200] P-18692      T-6600  I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:55:24 2020
+[2020/01/08@12:55:24.000+3200] P-8608       T-10444 I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:55:24.002+3200] P-8608       T-10444 I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:55:24.046+3200] P-8608       T-10444 I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:55:46 2020
+[2020/01/08@12:55:46.046+3200] P-15308      T-3928  I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:55:46.048+3200] P-15308      T-3928  I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:55:46.089+3200] P-15308      T-3928  I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:55:46 2020
+[2020/01/08@12:55:46.194+3200] P-8444       T-228   I BROKER  0: (333)   Multi-user session begin. 
+[2020/01/08@12:55:46.195+3200] P-8444       T-228   I BROKER  0: (15321) Before Image Log Initialisation at block 0  offset 620. 
+[2020/01/08@12:55:46.198+3200] P-8444       T-228   I BROKER  0: (452)   Login by SYSTEM on batch. 
+[2020/01/08@12:55:46.206+3200] P-8444       T-228   I BROKER  0: (5149)  The Host parameter supplied was 10.0.1.218, however, this Host is jv-mohitlal. 
+[2020/01/08@12:55:46.207+3200] P-8444       T-228   I BROKER  0: (15193) The normal shutdown of the database will continue for 10 Min 0 Sec if required. 
+[2020/01/08@12:55:46.207+3200] P-8444       T-228   I BROKER  0: (2248)  Begin normal shutdown 
+[2020/01/08@12:55:47.208+3200] P-8444       T-228   I BROKER  0: (2263)  Resending shutdown request to 0 user(s). 
+[2020/01/08@12:55:51.220+3200] P-8444       T-228   I BROKER  0: (15109) At Database close the number of live transactions is 0. 
+[2020/01/08@12:55:51.221+3200] P-8444       T-228   I BROKER  0: (15743) Before Image Log Completion at Block 0 Offset 620. 
+[2020/01/08@12:55:51.221+3200] P-8444       T-228   I BROKER  0: (453)   Logout by SYSTEM on batch. 
+[2020/01/08@12:55:51.224+3200] P-8444       T-228   I BROKER   : (16869) Removed shared memory with segment_id: 43909120 
+[2020/01/08@12:55:51.224+3200] P-8444       T-228   I BROKER   : (334)   Multi-user session end. 
+
+                Wed Jan  8 12:57:13 2020
+[2020/01/08@12:57:13.195+3200] P-8668       T-11884 I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:57:13.197+3200] P-8668       T-11884 I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:57:13.244+3200] P-8668       T-11884 I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:57:14 2020
+[2020/01/08@12:57:14.856+3200] P-5392       T-12136 I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:57:14.858+3200] P-5392       T-12136 I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:57:14.902+3200] P-5392       T-12136 I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:57:27 2020
+[2020/01/08@12:57:27.953+3200] P-8280       T-15592 I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:57:27.955+3200] P-8280       T-15592 I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:57:27.999+3200] P-8280       T-15592 I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:57:37 2020
+[2020/01/08@12:57:37.009+3200] P-16640      T-13136 I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:57:37.011+3200] P-16640      T-13136 I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:57:37.054+3200] P-16640      T-13136 I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:57:37 2020
+[2020/01/08@12:57:37.168+3200] P-12788      T-16516 I BROKER  0: (333)   Multi-user session begin. 
+[2020/01/08@12:57:37.169+3200] P-12788      T-16516 I BROKER  0: (15321) Before Image Log Initialisation at block 0  offset 620. 
+[2020/01/08@12:57:37.172+3200] P-12788      T-16516 I BROKER  0: (452)   Login by SYSTEM on batch. 
+[2020/01/08@12:57:37.180+3200] P-12788      T-16516 I BROKER  0: (5149)  The Host parameter supplied was 10.0.1.218, however, this Host is jv-mohitlal. 
+[2020/01/08@12:57:37.180+3200] P-12788      T-16516 I BROKER  0: (15193) The normal shutdown of the database will continue for 10 Min 0 Sec if required. 
+[2020/01/08@12:57:37.180+3200] P-12788      T-16516 I BROKER  0: (2248)  Begin normal shutdown 
+[2020/01/08@12:57:38.181+3200] P-12788      T-16516 I BROKER  0: (2263)  Resending shutdown request to 0 user(s). 
+[2020/01/08@12:57:42.193+3200] P-12788      T-16516 I BROKER  0: (15109) At Database close the number of live transactions is 0. 
+[2020/01/08@12:57:42.194+3200] P-12788      T-16516 I BROKER  0: (15743) Before Image Log Completion at Block 0 Offset 620. 
+[2020/01/08@12:57:42.194+3200] P-12788      T-16516 I BROKER  0: (453)   Logout by SYSTEM on batch. 
+[2020/01/08@12:57:42.197+3200] P-12788      T-16516 I BROKER   : (16869) Removed shared memory with segment_id: 47448064 
+[2020/01/08@12:57:42.197+3200] P-12788      T-16516 I BROKER   : (334)   Multi-user session end. 
+
+                Wed Jan  8 12:59:40 2020
+[2020/01/08@12:59:40.786+3200] P-3320       T-9688  I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/08@12:59:40.788+3200] P-3320       T-9688  I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/08@12:59:40.833+3200] P-3320       T-9688  I RPLU     : (334)   Replication Status session end. 
+
+                Wed Jan  8 12:59:40 2020
+[2020/01/08@12:59:40.955+3200] P-12720      T-13660 I BROKER  0: (333)   Multi-user session begin. 
+[2020/01/08@12:59:40.956+3200] P-12720      T-13660 I BROKER  0: (15321) Before Image Log Initialisation at block 0  offset 620. 
+[2020/01/08@12:59:40.961+3200] P-12720      T-13660 I BROKER  0: (452)   Login by SYSTEM on batch. 
+[2020/01/08@12:59:40.990+3200] P-12720      T-13660 I BROKER  0: (5644)  Started for 40020 using TCP IPV4 address 127.0.0.1, pid 12720. 
+[2020/01/08@12:59:41.004+3200] P-12720      T-13660 I BROKER  0: (8836)  Connecting to Admin Server on port 7846. 
+[2020/01/08@12:59:41.006+3200] P-12720      T-13660 I BROKER  0: (14262) Successfully connected to AdminServer on port 7846 using TCP/IP IPV4 address 127.0.0.1. 
+[2020/01/08@12:59:41.025+3200] P-12720      T-13660 I BROKER  0: (8846)  Registered with Admin Server. 
+[2020/01/08@12:59:41.036+3200] P-12720      T-13660 I BROKER  0: (-----) This installation is licensed to:  by C:\progress\dlc117\progress.cfg.
+[2020/01/08@12:59:41.039+3200] P-12720      T-13660 I BROKER  0: (-----) Product: 4GL Development System installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.041+3200] P-12720      T-13660 I BROKER  0: (-----) Product: NameServer Load Balanc installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.041+3200] P-12720      T-13660 I BROKER  0: (-----) Product: Client Networking installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.042+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE Application Svr Bas installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.043+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE Application Svr Ent installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.043+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE BP Server installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.043+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE CDC for Workgroup installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.044+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE CDC for Enterprise installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.044+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE DataServer for Orac installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.044+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE DataServer MS SQL S installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.045+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE Development Server installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.046+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE Enterprise RDBMS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.046+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE Personal RDBMS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.047+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE Adv. Ent. RDBMS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.047+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE Workgroup RDBMS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.047+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OpenEdge Mgt. SE installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.048+3200] P-12720      T-13660 I BROKER  0: (-----) Product: OE Studio installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.048+3200] P-12720      T-13660 I BROKER  0: (-----) Product: Progress Dev Studio OE installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.048+3200] P-12720      T-13660 I BROKER  0: (-----) Product: Query/RESULTS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.049+3200] P-12720      T-13660 I BROKER  0: (-----) Product: Translation Manager installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.049+3200] P-12720      T-13660 I BROKER  0: (-----) Product: Visual Translator installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.049+3200] P-12720      T-13660 I BROKER  0: (-----) Product: WebSpeed Workshop installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/08@12:59:41.050+3200] P-12720      T-13660 I BROKER  0: (4234)  Progress OpenEdge Release 11.7 build 1811 SP05 on WINNT . 
+[2020/01/08@12:59:41.050+3200] P-12720      T-13660 I BROKER  0: (4281)  Server started by SYSTEM on batch. 
+[2020/01/08@12:59:41.050+3200] P-12720      T-13660 I BROKER  0: (6574)  Started using pid: 12720. 
+[2020/01/08@12:59:41.051+3200] P-12720      T-13660 I BROKER  0: (15219) Encryption enabled: 0 
+[2020/01/08@12:59:41.051+3200] P-12720      T-13660 I BROKER  0: (15824) Multi-tenancy enabled: 0 
+[2020/01/08@12:59:41.051+3200] P-12720      T-13660 I BROKER  0: (15824) Table Partitioning enabled: 0 
+[2020/01/08@12:59:41.052+3200] P-12720      T-13660 I BROKER  0: (15824) Authentication Gateway enabled: 0 
+[2020/01/08@12:59:41.052+3200] P-12720      T-13660 I BROKER  0: (-----) LRU mechanism enabled.
+[2020/01/08@12:59:41.052+3200] P-12720      T-13660 I BROKER  0: (4282)  Parameter File: Not Enabled. 
+[2020/01/08@12:59:41.053+3200] P-12720      T-13660 I BROKER  0: (9336)  Created shared memory with segment_id: 45023232 
+[2020/01/08@12:59:41.053+3200] P-12720      T-13660 I BROKER  0: (4250)  Before-Image Cluster Size: 524288. 
+[2020/01/08@12:59:41.053+3200] P-12720      T-13660 I BROKER  0: (4251)  Before-Image Block Size: 8192. 
+[2020/01/08@12:59:41.054+3200] P-12720      T-13660 I BROKER  0: (13873) After-image Management Archival Directory List (-aiarcdir): Not Enabled 
+[2020/01/08@12:59:41.054+3200] P-12720      T-13660 I BROKER  0: (13874) Create After-image Management Archival Directory(s) (-aiarcdircreate): Not Enabled 
+[2020/01/08@12:59:41.054+3200] P-12720      T-13660 I BROKER  0: (13872) After-image Management Archival Interval (-aiarcinterval): -1 
+[2020/01/08@12:59:41.055+3200] P-12720      T-13660 I BROKER  0: (4256)  Number of After-Image Buffers (-aibufs): 20 
+[2020/01/08@12:59:41.055+3200] P-12720      T-13660 I BROKER  0: (4254)  After-Image Stall (-aistall): Not Enabled 
+[2020/01/08@12:59:41.055+3200] P-12720      T-13660 I BROKER  0: (17555) Starting index number for statistics range (-baseindex): 1 
+[2020/01/08@12:59:41.056+3200] P-12720      T-13660 I BROKER  0: (17554) Starting table number for statistics range (-basetable): 1 
+[2020/01/08@12:59:41.056+3200] P-12720      T-13660 I BROKER  0: (18406) Starting index number per user for statistics range (-baseuserindex): 1 
+[2020/01/08@12:59:41.056+3200] P-12720      T-13660 I BROKER  0: (18404) Starting table number per user for statistics range (-baseusertable): 1 
+[2020/01/08@12:59:41.057+3200] P-12720      T-13660 I BROKER  0: (4252)  Number of Before-Image Buffers (-bibufs): 20 
+[2020/01/08@12:59:41.057+3200] P-12720      T-13660 I BROKER  0: (6552)  BI File Threshold Stall (-bistall): Disabled. 
+[2020/01/08@12:59:41.058+3200] P-12720      T-13660 I BROKER  0: (9238)  BI File Threshold size (-bithold): 0.0   Bytes 
+[2020/01/08@12:59:41.058+3200] P-12720      T-13660 I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2020/01/08@12:59:41.059+3200] P-12720      T-13660 I BROKER  0: (12812) BIW writer delay (-bwdelay): 0 
+[2020/01/08@12:59:41.060+3200] P-12720      T-13660 I BROKER  0: (12813) Allowed index cursors (-c): 84. 
+[2020/01/08@12:59:41.060+3200] P-12720      T-13660 I BROKER  0: (18495) CDC cache size (-cdcsize): 200k bytes 
+[2020/01/08@12:59:41.061+3200] P-12720      T-13660 I BROKER  0: (12265) SSL Certificate Store Path (-certstorepath): Not Enabled 
+[2020/01/08@12:59:41.061+3200] P-12720      T-13660 I BROKER  0: (4264)  Character Set (-cpinternal): ISO8859-1 
+[2020/01/08@12:59:41.061+3200] P-12720      T-13660 I BROKER  0: (-----) C stack print option (-cstackPrintopt): 0
+[2020/01/08@12:59:41.062+3200] P-12720      T-13660 I BROKER  0: (4235)  Physical Database Name (-db): F:\git\awesome\myproject\src\testdb 
+[2020/01/08@12:59:41.062+3200] P-12720      T-13660 I BROKER  0: (18558) Diagnostic directory (-diagDir): Not Enabled 
+[2020/01/08@12:59:41.064+3200] P-12720      T-13660 I BROKER  0: (18576) Diagnostic events value (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2020/01/08@12:59:41.064+3200] P-12720      T-13660 I BROKER  0: (18560) Diagnostic event level (-diagEvtLevel): 0 
+[2020/01/08@12:59:41.064+3200] P-12720      T-13660 I BROKER  0: (18561) Diagnostic field separator (-diagFS): ' ' 
+[2020/01/08@12:59:41.065+3200] P-12720      T-13660 I BROKER  0: (18579) Diagnostic data format (-diagFormat): csv 
+[2020/01/08@12:59:41.065+3200] P-12720      T-13660 I BROKER  0: (18562) Diagnostic pause length (-diagPause): 0 
+[2020/01/08@12:59:41.065+3200] P-12720      T-13660 I BROKER  0: (18563) Diagnostic prefix value (-diagPrefix): diagEvent_ 
+[2020/01/08@12:59:41.066+3200] P-12720      T-13660 I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled 
+[2020/01/08@12:59:41.066+3200] P-12720      T-13660 I BROKER  0: (4236)  Database Type (-dt): PROGRESS 
+[2020/01/08@12:59:41.066+3200] P-12720      T-13660 I BROKER  0: (15218) Encryption cache size (-ecsize): 1000 
+[2020/01/08@12:59:41.067+3200] P-12720      T-13660 I BROKER  0: (12814) Group delay (-groupdelay): 10 
+[2020/01/08@12:59:41.067+3200] P-12720      T-13660 I BROKER  0: (4242)  Hash Table Entries (-hash): 887 
+[2020/01/08@12:59:41.067+3200] P-12720      T-13660 I BROKER  0: (-----) Buffer pool hash table latch percentage (-hashLatchFactor): 10 
+[2020/01/08@12:59:41.067+3200] P-12720      T-13660 I BROKER  0: (4244)  Crash Recovery (-i): Enabled 
+[2020/01/08@12:59:41.068+3200] P-12720      T-13660 I BROKER  0: (17557) Number of indexes included in statistics collection (-indexrangesize): 50 
+[2020/01/08@12:59:41.068+3200] P-12720      T-13660 I BROKER  0: (14268) TCP/IP Version (-ipver): IPV4 
+[2020/01/08@12:59:41.068+3200] P-12720      T-13660 I BROKER  0: (12263) SSL Key Alias Name (-keyalias): Not Enabled 
+[2020/01/08@12:59:41.069+3200] P-12720      T-13660 I BROKER  0: (-----) Database log file archive directory (-lgArchiveDir): Not Enabled 
+[2020/01/08@12:59:41.069+3200] P-12720      T-13660 I BROKER  0: (-----) Archive database log file before truncation (-lgArchiveEnable): Not Enabled 
+[2020/01/08@12:59:41.069+3200] P-12720      T-13660 I BROKER  0: (-----) Frequency of database log file truncation (-lgTruncateFrequency): -1 
+[2020/01/08@12:59:41.070+3200] P-12720      T-13660 I BROKER  0: (-----) The maximum size the database log file can grow before truncation (-lgTruncateSize): 0MB 
+[2020/01/08@12:59:41.070+3200] P-12720      T-13660 I BROKER  0: (-----) Time of day for the database log file truncation (-lgTruncateTime): 00:00 
+[2020/01/08@12:59:41.070+3200] P-12720      T-13660 I BROKER  0: (-----) Limit .lg file payload (-limitLgPayload): Not Enabled
+[2020/01/08@12:59:41.071+3200] P-12720      T-13660 I BROKER  0: (12815) Lock table hash table size (-lkhash): 1237 
+[2020/01/08@12:59:41.072+3200] P-12720      T-13660 I BROKER  0: (17805) Original Lock Release Algorithm (-lkrela): Not Enabled 
+[2020/01/08@12:59:41.072+3200] P-12720      T-13660 I BROKER  0: (17560) Number of LRU force skips (-lruskips): 0 
+[2020/01/08@12:59:41.072+3200] P-12720      T-13660 I BROKER  0: (17561) Number of LRU2 force skips (-lru2skips): 0 
+[2020/01/08@12:59:41.073+3200] P-12720      T-13660 I BROKER  0: (13953) Maximum Area Number (-maxArea): 32000 
+[2020/01/08@12:59:41.073+3200] P-12720      T-13660 I BROKER  0: (12540) Size of JTA transaction table (-maxxids):  100 
+[2020/01/08@12:59:41.073+3200] P-12720      T-13660 I BROKER  0: (5649)  Maximum Port for Auto Servers (-maxport): 5000 
+[2020/01/08@12:59:41.073+3200] P-12720      T-13660 I BROKER  0: (5648)  Minimum Port for Auto Servers (-minport): 3000 
+[2020/01/08@12:59:41.074+3200] P-12720      T-13660 I BROKER  0: (17564) Multi-tenancy partition cache size (-mtpmsize): 1024 
+[2020/01/08@12:59:41.074+3200] P-12720      T-13660 I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2020/01/08@12:59:41.074+3200] P-12720      T-13660 I BROKER  0: (4260)  Maximum Number of Users (-n): 21 
+[2020/01/08@12:59:41.075+3200] P-12720      T-13660 I BROKER  0: (17566) Minimum time to nap at first -spin exhaustion (-nap): 10 
+[2020/01/08@12:59:41.075+3200] P-12720      T-13660 I BROKER  0: (17565) Maximum time to nap at -spin exhaustion (-napmax): 250 
+[2020/01/08@12:59:41.075+3200] P-12720      T-13660 I BROKER  0: (18522) SSL No Host Verify (-nohostverify): Not Enabled 
+[2020/01/08@12:59:41.076+3200] P-12720      T-13660 I BROKER  0: (17807) Disable LRU mechanism (-nolru): Not Enabled 
+[2020/01/08@12:59:41.076+3200] P-12720      T-13660 I BROKER  0: (12273) SSL No Session Cache (-nosessioncache): Not Enabled 
+[2020/01/08@12:59:41.076+3200] P-12720      T-13660 I BROKER  0: (18521) SSL No Session Reuse (-nosessionreuse): Not Enabled 
+[2020/01/08@12:59:41.077+3200] P-12720      T-13660 I BROKER  0: (16689) Login Governor (-nGovernor): 0 of 21 
+[2020/01/08@12:59:41.077+3200] P-12720      T-13660 I BROKER  0: (18398) Number of checkpoint statistics to record (-numCheckpointStats): 32 
+[2020/01/08@12:59:41.077+3200] P-12720      T-13660 I BROKER  0: (-----) Omit .lg file messages (-omitLgMsgs): 
+[2020/01/08@12:59:41.077+3200] P-12720      T-13660 I BROKER  0: (8527)  Storage object cache size (-omsize): 1024 
+[2020/01/08@12:59:41.078+3200] P-12720      T-13660 I BROKER  0: (13870) Database Service Manager - IPC Queue Size (-pica): 64.0  KBytes 
+[2020/01/08@12:59:41.078+3200] P-12720      T-13660 I BROKER  0: (17802) Shared memory segments locked (-pinshm): Not Enabled 
+[2020/01/08@12:59:41.078+3200] P-12720      T-13660 I BROKER  0: (16953) Use pollset mechanism for client/server (-pollset): Not Enabled 
+[2020/01/08@12:59:41.079+3200] P-12720      T-13660 I BROKER  0: (16955) Delay first prefetch message (-prefetchDelay): Not Enabled 
+[2020/01/08@12:59:41.079+3200] P-12720      T-13660 I BROKER  0: (16956) Prefetch message fill percentage (-prefetchFactor): 0 
+[2020/01/08@12:59:41.080+3200] P-12720      T-13660 I BROKER  0: (16957) Minimum records in prefetch msg (-prefetchNumRecs): 16 
+[2020/01/08@12:59:41.080+3200] P-12720      T-13660 I BROKER  0: (16958) Suspension queue poll priority (-prefetchPriority): 0 
+[2020/01/08@12:59:41.081+3200] P-12720      T-13660 I BROKER  0: (17568) APW queue scan cycle time in milliseconds (-pwqdelay): 100 
+[2020/01/08@12:59:41.081+3200] P-12720      T-13660 I BROKER  0: (17569) APW minimum queue length before write (-pwqmin): 1 
+[2020/01/08@12:59:41.081+3200] P-12720      T-13660 I BROKER  0: (17570) APW buffer scan cycle time in seconds (-pwsdelay): 1 
+[2020/01/08@12:59:41.081+3200] P-12720      T-13660 I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2020/01/08@12:59:41.082+3200] P-12720      T-13660 I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2020/01/08@12:59:41.082+3200] P-12720      T-13660 I BROKER  0: (4247)  Before-Image File I/O (-r -R): Reliable 
+[2020/01/08@12:59:41.082+3200] P-12720      T-13660 I BROKER  0: (17563) Record free chain search depth factor (-recspacesearchdepth): 5 
+[2020/01/08@12:59:41.083+3200] P-12720      T-13660 I BROKER  0: (18478) Security cache size (-secsize): 512 
+[2020/01/08@12:59:41.083+3200] P-12720      T-13660 I BROKER  0: (6526)  Number of Semaphore Sets (-semsets): 3 
+[2020/01/08@12:59:41.083+3200] P-12720      T-13660 I BROKER  0: (12264) SSL Session Timeout (-sessiontimeout): 0 
+[2020/01/08@12:59:41.084+3200] P-12720      T-13660 I BROKER  0: (13924) Maximum Shared Memory Segment Size (-shmsegsize): 128 Mb 
+[2020/01/08@12:59:41.084+3200] P-12720      T-13660 I BROKER  0: (4243)  Current Spin Lock Tries (-spin): 24000 
+[2020/01/08@12:59:41.084+3200] P-12720      T-13660 I BROKER  0: (17803) SSL Encryption for TCP/IP connections (-ssl): Not Enabled 
+[2020/01/08@12:59:41.085+3200] P-12720      T-13660 I BROKER  0: (18525) STS Debug Logging Level default (-stslogginglevel): 0 
+[2020/01/08@12:59:41.085+3200] P-12720      T-13660 I BROKER  0: (17556) Number of tables included in statistics collection (-tablerangesize): 50 
+[2020/01/08@12:59:41.085+3200] P-12720      T-13660 I BROKER  0: (18118) User Notification Time (-usernotifytime): 0 seconds 
+[2020/01/08@12:59:41.086+3200] P-12720      T-13660 I BROKER  0: (18407) Number of indexes per user included in statistics collection (-userindexrangesize): 50 
+[2020/01/08@12:59:41.086+3200] P-12720      T-13660 I BROKER  0: (18405) Number of tables per user included in statistics collection (-usertablerangesize): 50 
+[2020/01/08@12:59:41.086+3200] P-12720      T-13660 I BROKER  0: (14017) Area block consistency check (-AreaCheck): Not Enabled 
+[2020/01/08@12:59:41.087+3200] P-12720      T-13660 I BROKER  0: (4239)  Number of Database Buffers (-B): 3000 
+[2020/01/08@12:59:41.087+3200] P-12720      T-13660 I BROKER  0: (17562) Number of Alternate Database Buffers (-B2): 0 
+[2020/01/08@12:59:41.087+3200] P-12720      T-13660 I BROKER  0: (9422)  Maximum private buffers per user (-Bpmax): 64 
+[2020/01/08@12:59:41.088+3200] P-12720      T-13660 I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2020/01/08@12:59:41.088+3200] P-12720      T-13660 I BROKER  0: (13869) Database Service Manager - Service(s) to start (-DBService): Not Enabled 
+[2020/01/08@12:59:41.088+3200] P-12720      T-13660 I BROKER  0: (10535) Enhanced Read-Only mode (-ERO): Not Enabled 
+[2020/01/08@12:59:41.089+3200] P-12720      T-13660 I BROKER  0: (4237)  Force Access (-F): Not Enabled 
+[2020/01/08@12:59:41.089+3200] P-12720      T-13660 I BROKER  0: (4249)  Before-Image Truncate Interval (-G): 0 
+[2020/01/08@12:59:41.089+3200] P-12720      T-13660 I BROKER  0: (4261)  Host Name (-H): JV-MOHITLAL 
+[2020/01/08@12:59:41.090+3200] P-12720      T-13660 I BROKER  0: (14018) Index block consistency check (-IndexCheck): Not Enabled 
+[2020/01/08@12:59:41.090+3200] P-12720      T-13660 I BROKER  0: (4241)  Current Size of Lock Table (-L): 8192 
+[2020/01/08@12:59:41.090+3200] P-12720      T-13660 I BROKER  0: (16688) Lock Governor (-LGovernor): 0% 
+[2020/01/08@12:59:41.091+3200] P-12720      T-13660 I BROKER  0: (4257)  Maximum Number of Clients Per Server (-Ma): 5 
+[2020/01/08@12:59:41.091+3200] P-12720      T-13660 I BROKER  0: (14016) Memory overwrite check (-MemCheck): Not Enabled 
+[2020/01/08@12:59:41.091+3200] P-12720      T-13660 I BROKER  0: (4245)  Delay of Before-Image Flush (-Mf): 3 
+[2020/01/08@12:59:41.091+3200] P-12720      T-13660 I BROKER  0: (4259)  Minimum Clients Per Server (-Mi): 1 
+[2020/01/08@12:59:41.092+3200] P-12720      T-13660 I BROKER  0: (12818) Message Buffer Size (-Mm): 1024 
+[2020/01/08@12:59:41.092+3200] P-12720      T-13660 I BROKER  0: (4258)  Maximum Number of Servers (-Mn): 5 
+[2020/01/08@12:59:41.092+3200] P-12720      T-13660 I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2020/01/08@12:59:41.093+3200] P-12720      T-13660 I BROKER  0: (5647)  Maximum Servers Per Broker (-Mpb): 4 
+[2020/01/08@12:59:41.093+3200] P-12720      T-13660 I BROKER  0: (4240)  Excess Shared Memory Size (-Mxs): 23 
+[2020/01/08@12:59:41.093+3200] P-12720      T-13660 I BROKER  0: (4263)  Network Type (-N): TCP 
+[2020/01/08@12:59:41.094+3200] P-12720      T-13660 I BROKER  0: (16954) Server network message wait time (-Nmsgwait): 2 
+[2020/01/08@12:59:41.094+3200] P-12720      T-13660 I BROKER  0: (10357) Pending client connection timeout (-PendConnTimeout): 0 
+[2020/01/08@12:59:41.094+3200] P-12720      T-13660 I BROKER  0: (4262)  Service Name (-S): 40020 
+[2020/01/08@12:59:41.095+3200] P-12720      T-13660 I BROKER  0: (17804) Broker server group support (-ServerType): BOTH 
+[2020/01/08@12:59:41.095+3200] P-12720      T-13660 I BROKER  0: (10028) SQL Server Max Open Cursors (-SQLCursors): 50 
+[2020/01/08@12:59:41.095+3200] P-12720      T-13660 I BROKER  0: (17567) Number of seconds for a SQL client to wait for a record lock(-SQLLockWaitTimeout): 5. 
+[2020/01/08@12:59:41.096+3200] P-12720      T-13660 I BROKER  0: (10026) SQL Server Stack Size (-SQLStack): 1000 
+[2020/01/08@12:59:41.097+3200] P-12720      T-13660 I BROKER  0: (10027) SQL Server Statement Cache Size (-SQLStmtCache): 100 
+[2020/01/08@12:59:41.097+3200] P-12720      T-13660 I BROKER  0: (10029) Size [1K byte units] of SQL Server temp table buffer (-SQLTempStoreBuff): 1000 
+[2020/01/08@12:59:41.097+3200] P-12720      T-13660 I BROKER  0: (10030) Size [1K byte units] of SQL Server temp table disk storage (-SQLTempStoreDisk): 500000 
+[2020/01/08@12:59:41.098+3200] P-12720      T-13660 I BROKER  0: (10031) Size [1K byte units] of SQL Server temp table data page (-SQLTempStorePageSize): 8 
+[2020/01/08@12:59:41.098+3200] P-12720      T-13660 I BROKER  0: (17955) Authorized data truncation (-SQLTruncateTooLarge): OFF 
+[2020/01/08@12:59:41.099+3200] P-12720      T-13660 I BROKER  0: (18156) SQL Autonomous Schema Update (-SQLWidthUpdate): OFF 
+[2020/01/08@12:59:41.099+3200] P-12720      T-13660 I BROKER  0: (14019) Record block consistency check (-TableCheck): Not Enabled 
+[2020/01/08@12:59:41.099+3200] P-12720      T-13660 I BROKER  0: (17717) TXE Lock retry limit (-TXERetryLimit): 0 
+[2020/01/08@12:59:41.100+3200] P-12720      T-13660 I BROKER  0: (13896) TXE Commit lock skip limit (-TXESkipLimit): 10000 
+[2020/01/08@12:59:41.100+3200] P-12720      T-13660 I BROKER  0: (10836) Database connections are not allowed at this time. 
+[2020/01/08@12:59:41.101+3200] P-12720      T-13660 I BROKER  0: (10471) Database connections have been enabled. 
+[2020/01/08@12:59:43.672+3200] P-12576      T-8148  I BIW     5: (-----) Login by SYSTEM.
+[2020/01/08@12:59:43.703+3200] P-12576      T-8148  I BIW     5: (2518)  Started. 
+[2020/01/08@12:59:45.641+3200] P-6744       T-12580 I WDOG    6: (-----) Login by SYSTEM.
+[2020/01/08@12:59:45.643+3200] P-6744       T-12580 I WDOG    6: (2518)  Started. 
+[2020/01/08@12:59:47.669+3200] P-8132       T-6868  I APW     7: (-----) Login by SYSTEM.
+[2020/01/08@12:59:47.670+3200] P-8132       T-6868  I APW     7: (2518)  Started. 
+[2020/01/08@12:59:47.707+3200] P-14556      T-15420 I OEMAGENT8: (452)   Login by SYSTEM on batch. 
+[2020/01/08@12:59:47.707+3200] P-14556      T-15420 I OEMAGENT8: (7129)  Usr 8 set name to DB_Agent. 
+[2020/01/08@12:59:47.716+3200] P-14556      T-15420 I FMAGENT 8: (14262) Successfully connected to AdminServer on port 8846 using TCP/IP IPv4 address 10.0.1.218. 
+[2020/01/08@12:59:47.720+3200] P-14556      T-15420 I FMAGENT 8: (8846)  Registered with Admin Server. 
+[2020/01/08@13:02:39.296+3200] P-12752      T-12572 I SRV     1: (452)   Login by SYSTEM on CON:. 
+[2020/01/08@13:02:39.307+3200] P-12752      T-12572 I SRV     1: (5646)  Started on port 3000 using TCP IPV4 address 127.0.0.1, pid 12752. 
+[2020/01/08@13:02:40.277+3200] P-12752      T-12572 I SRV     1: (742)   Login usernum 24, userid mlal client type ABL , on jv-mohitlal using TCP/IP IPV4 address 127.0.0.1. 
+[2020/01/08@13:02:40.278+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/08@13:02:40.278+3200] P-12752      T-12572 I SRV     1: (17961) User 24 set tty to jv-mohitlal. 
+[2020/01/08@13:02:40.302+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/08@13:06:12.711+3200] P-12752      T-12572 I SRV     1: (739)   Logout usernum 24, userid mlal, on jv-mohitlal. 
+[2020/01/08@13:12:27.476+3200] P-18652      T-15640 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/08@13:12:27.507+3200] P-18652      T-15640 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/08@13:12:27.707+3200] P-18652      T-15640 I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/08@13:12:47.083+3200] P-12752      T-12572 I SRV     1: (742)   Login usernum 24, userid mlal client type ABL , on jv-mohitlal using TCP/IP IPV4 address 127.0.0.1. 
+[2020/01/08@13:12:47.083+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/08@13:12:47.083+3200] P-12752      T-12572 I SRV     1: (17961) User 24 set tty to jv-mohitlal. 
+[2020/01/08@13:12:47.121+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/08@13:13:01.580+3200] P-12752      T-12572 I SRV     1: (739)   Logout usernum 24, userid mlal, on jv-mohitlal. 
+[2020/01/08@13:16:47.898+3200] P-1180       T-10940 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/08@13:16:47.928+3200] P-1180       T-10940 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/08@13:16:48.025+3200] P-1180       T-10940 I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/08@13:17:23.013+3200] P-12752      T-12572 I SRV     1: (742)   Login usernum 24, userid mlal client type ABL , on jv-mohitlal using TCP/IP IPV4 address 127.0.0.1. 
+[2020/01/08@13:17:23.013+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/08@13:17:23.014+3200] P-12752      T-12572 I SRV     1: (17961) User 24 set tty to jv-mohitlal. 
+[2020/01/08@13:17:23.025+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/08@13:19:43.536+3200] P-14644      T-6592  I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/08@13:19:43.552+3200] P-14644      T-6592  I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/08@13:19:43.652+3200] P-14644      T-6592  I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/08@16:57:58.687+3200] P-12752      T-12572 I SRV     1: (739)   Logout usernum 24, userid mlal, on jv-mohitlal. 
+[2020/01/08@17:38:28.686+3200] P-1984       T-5500  I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/08@17:38:28.729+3200] P-1984       T-5500  I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/08@17:38:28.829+3200] P-1984       T-5500  I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/08@17:53:43.118+3200] P-12752      T-12572 I SRV     1: (742)   Login usernum 24, userid mlal client type ABL , on jv-mohitlal using TCP/IP IPV4 address 127.0.0.1. 
+[2020/01/08@17:53:43.119+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/08@17:53:43.119+3200] P-12752      T-12572 I SRV     1: (17961) User 24 set tty to jv-mohitlal. 
+[2020/01/08@17:53:43.132+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/08@17:53:54.712+3200] P-12752      T-12572 I SRV     1: (739)   Logout usernum 24, userid mlal, on jv-mohitlal. 
+[2020/01/09@10:01:22.777+3200] P-14556      T-15420 I FMAGENT 8: (8848)  Connection to Admin Server lost. 
+[2020/01/09@10:01:23.864+3200] P-14556      T-15420 I FMAGENT 8: (14262) Successfully connected to AdminServer on port 8846 using TCP/IP IPv4 address 127.0.0.1. 
+[2020/01/09@10:01:24.498+3200] P-14556      T-15420 I FMAGENT 8: (8846)  Registered with Admin Server. 
+
+                Thu Jan  9 10:22:56 2020
+[2020/01/09@10:22:56.692+3200] P-15940      T-13500 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@10:22:56.747+3200] P-15940      T-13500 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@10:22:56.948+3200] P-15940      T-13500 I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/09@10:23:08.050+3200] P-14840      T-12800 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@10:23:08.066+3200] P-14840      T-12800 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@10:23:08.261+3200] P-14840      T-12800 I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/09@11:14:33.962+3200] P-16356      T-3552  I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@11:14:33.973+3200] P-16356      T-3552  I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@11:14:34.070+3200] P-16356      T-3552  I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/09@11:14:45.466+3200] P-9764       T-18176 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@11:14:45.485+3200] P-9764       T-18176 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@11:14:45.680+3200] P-9764       T-18176 I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/09@12:10:17.895+3200] P-12752      T-12572 I SRV     1: (742)   Login usernum 24, userid mlal client type ABL , on jv-mohitlal using TCP/IP IPV4 address 127.0.0.1. 
+[2020/01/09@12:10:17.896+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/09@12:10:17.897+3200] P-12752      T-12572 I SRV     1: (17961) User 24 set tty to jv-mohitlal. 
+[2020/01/09@12:10:17.926+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/09@12:10:29.506+3200] P-12752      T-12572 I SRV     1: (739)   Logout usernum 24, userid mlal, on jv-mohitlal. 
+[2020/01/09@12:14:05.601+3200] P-15088      T-14696 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@12:14:05.611+3200] P-15088      T-14696 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@12:14:05.714+3200] P-15088      T-14696 I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/09@12:14:17.276+3200] P-17540      T-13200 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@12:14:17.293+3200] P-17540      T-13200 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@12:14:17.393+3200] P-17540      T-13200 I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/09@14:35:28.139+3200] P-12752      T-12572 I SRV     1: (742)   Login usernum 24, userid mlal client type ABL , on jv-mohitlal using TCP/IP IPV4 address 127.0.0.1. 
+[2020/01/09@14:35:28.140+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/09@14:35:28.140+3200] P-12752      T-12572 I SRV     1: (17961) User 24 set tty to jv-mohitlal. 
+[2020/01/09@14:35:28.152+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/09@14:35:36.535+3200] P-12752      T-12572 I SRV     1: (739)   Logout usernum 24, userid mlal, on jv-mohitlal. 
+[2020/01/09@14:36:56.132+3200] P-14840      T-17396 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@14:36:56.144+3200] P-14840      T-17396 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@14:36:56.245+3200] P-14840      T-17396 I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/09@14:37:07.479+3200] P-15468      T-17128 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@14:37:07.489+3200] P-15468      T-17128 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@14:37:07.589+3200] P-15468      T-17128 I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/09@14:38:46.149+3200] P-12752      T-12572 I SRV     1: (742)   Login usernum 24, userid mlal client type ABL , on jv-mohitlal using TCP/IP IPV4 address 127.0.0.1. 
+[2020/01/09@14:38:46.150+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/09@14:38:46.150+3200] P-12752      T-12572 I SRV     1: (17961) User 24 set tty to jv-mohitlal. 
+[2020/01/09@14:38:46.162+3200] P-12752      T-12572 I SRV     1: (7129)  Usr 24 set name to mlal. 
+[2020/01/09@14:38:55.618+3200] P-12752      T-12572 I SRV     1: (739)   Logout usernum 24, userid mlal, on jv-mohitlal. 
+[2020/01/09@16:38:02.139+3200] P-18024      T-9136  I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@16:38:02.161+3200] P-18024      T-9136  I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@16:38:02.353+3200] P-18024      T-9136  I ABL     9: (453)   Logout by mlal on batch. 
+[2020/01/09@16:38:13.481+3200] P-12428      T-14388 I ABL     9: (452)   Login by mlal on batch. 
+[2020/01/09@16:38:13.497+3200] P-12428      T-14388 I ABL     9: (7129)  Usr 9 set name to mlal. 
+[2020/01/09@16:38:13.594+3200] P-12428      T-14388 I ABL     9: (453)   Logout by mlal on batch. 
+
+                Mon Jan 13 14:40:12 2020
+[2020/01/13@14:40:12.858+3200] P-12752      T-8580  I SRV     1: (9438)  CTRL_SHUTDOWN_EVENT console event received. 
+[2020/01/13@14:40:12.873+3200] P-8132       T-6868  I APW     7: (453)   Logout by SYSTEM on batch. 
+[2020/01/13@14:40:12.882+3200] P-12576      T-8148  I BIW     5: (2520)  Stopped. 
+[2020/01/13@14:40:12.883+3200] P-12576      T-8148  I BIW     5: (453)   Logout by SYSTEM on batch. 
+[2020/01/13@14:40:12.949+3200] P-12752      T-12572 I SRV     1: (2520)  Stopped. 
+[2020/01/13@14:40:12.988+3200] P-14556      T-15420 I OEMAGENT8: (453)   Logout by DB_Agent on batch. 
+[2020/01/13@14:40:14.004+3200] P-12720      T-13660 I BROKER  0: (15192) The database will complete shutdown within approximately 60 seconds. 
+[2020/01/13@14:40:14.005+3200] P-12720      T-13660 I BROKER  0: (2249)  Begin ABNORMAL shutdown code 2 
+[2020/01/13@14:40:15.023+3200] P-12720      T-13660 I BROKER  0: (2263)  Resending shutdown request to 1 user(s). 
+[2020/01/13@14:40:22.205+3200] P-6744       T-12580 I WDOG    6: (453)   Logout by SYSTEM on batch. 
+[2020/01/13@14:40:22.205+3200] P-6744       T-12580 I WDOG    6: (5179)  Registry error 1722: Could not register 'TESTDB_PROGRESS' events with the Event Viewer. 
+[2020/01/13@14:40:23.056+3200] P-12720      T-13660 I BROKER  0: (5179)  Registry error 1722: Could not register 'TESTDB_PROGRESS' events with the Event Viewer. 
+[2020/01/13@14:40:23.056+3200] P-12720      T-13660 I BROKER  0: (453)   Logout by SYSTEM on batch. 
+
+                Mon Jan 13 14:41:29 2020
+[2020/01/13@14:41:29.995+3200] P-7988       T-7992  I RPLU     : (451)   Replication Status session begin for SYSTEM on batch. 
+[2020/01/13@14:41:30.003+3200] P-7988       T-7992  I RPLU     : (7129)  Usr 0 set name to NT AUTHORITY\SYSTEM. 
+[2020/01/13@14:41:30.128+3200] P-7988       T-7992  I RPLU     : (334)   Replication Status session end. 
+
+                Mon Jan 13 14:41:30 2020
+[2020/01/13@14:41:30.376+3200] P-7388       T-7376  I BROKER  0: (333)   Multi-user session begin. 
+[2020/01/13@14:41:30.401+3200] P-7388       T-7376  I BROKER  0: (5326)  Begin Physical Redo Phase at 0 . 
+[2020/01/13@14:41:30.466+3200] P-7388       T-7376  I BROKER  0: (7161)  Physical Redo Phase Completed at blk 99 off 4383 upd 101. 
+[2020/01/13@14:41:30.467+3200] P-7388       T-7376  I BROKER  0: (13547) At end of Physical redo, transaction table size is 128. 
+[2020/01/13@14:41:30.504+3200] P-7388       T-7376  I BROKER  0: (452)   Login by SYSTEM on batch. 
+[2020/01/13@14:41:30.522+3200] P-7388       T-7376  I BROKER  0: (5644)  Started for 40020 using TCP IPV4 address 127.0.0.1, pid 7388. 
+[2020/01/13@14:41:30.523+3200] P-7388       T-7376  I BROKER  0: (8836)  Connecting to Admin Server on port 7846. 
+[2020/01/13@14:41:30.531+3200] P-7388       T-7376  I BROKER  0: (14262) Successfully connected to AdminServer on port 7846 using TCP/IP IPV4 address 127.0.0.1. 
+[2020/01/13@14:41:31.731+3200] P-7388       T-7376  I BROKER  0: (8846)  Registered with Admin Server. 
+[2020/01/13@14:41:31.732+3200] P-7388       T-7376  I BROKER  0: (-----) This installation is licensed to:  by C:\progress\dlc117\progress.cfg.
+[2020/01/13@14:41:31.733+3200] P-7388       T-7376  I BROKER  0: (-----) Product: 4GL Development System installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.733+3200] P-7388       T-7376  I BROKER  0: (-----) Product: NameServer Load Balanc installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.733+3200] P-7388       T-7376  I BROKER  0: (-----) Product: Client Networking installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.734+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE Application Svr Bas installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.734+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE Application Svr Ent installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.734+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE BP Server installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.735+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE CDC for Workgroup installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.735+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE CDC for Enterprise installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.735+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE DataServer for Orac installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.736+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE DataServer MS SQL S installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.736+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE Development Server installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.736+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE Enterprise RDBMS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.736+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE Personal RDBMS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.737+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE Adv. Ent. RDBMS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.737+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE Workgroup RDBMS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.737+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OpenEdge Mgt. SE installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.738+3200] P-7388       T-7376  I BROKER  0: (-----) Product: OE Studio installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.738+3200] P-7388       T-7376  I BROKER  0: (-----) Product: Progress Dev Studio OE installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.738+3200] P-7388       T-7376  I BROKER  0: (-----) Product: Query/RESULTS installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.738+3200] P-7388       T-7376  I BROKER  0: (-----) Product: Translation Manager installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.739+3200] P-7388       T-7376  I BROKER  0: (-----) Product: Visual Translator installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.739+3200] P-7388       T-7376  I BROKER  0: (-----) Product: WebSpeed Workshop installed with serial number: 6182615 expiration: 05/29/2020
+[2020/01/13@14:41:31.739+3200] P-7388       T-7376  I BROKER  0: (4234)  Progress OpenEdge Release 11.7 build 1811 SP05 on WINNT . 
+[2020/01/13@14:41:31.740+3200] P-7388       T-7376  I BROKER  0: (4281)  Server started by SYSTEM on batch. 
+[2020/01/13@14:41:31.740+3200] P-7388       T-7376  I BROKER  0: (6574)  Started using pid: 7388. 
+[2020/01/13@14:41:31.740+3200] P-7388       T-7376  I BROKER  0: (15219) Encryption enabled: 0 
+[2020/01/13@14:41:31.741+3200] P-7388       T-7376  I BROKER  0: (15824) Multi-tenancy enabled: 0 
+[2020/01/13@14:41:31.741+3200] P-7388       T-7376  I BROKER  0: (15824) Table Partitioning enabled: 0 
+[2020/01/13@14:41:31.741+3200] P-7388       T-7376  I BROKER  0: (15824) Authentication Gateway enabled: 0 
+[2020/01/13@14:41:31.742+3200] P-7388       T-7376  I BROKER  0: (-----) LRU mechanism enabled.
+[2020/01/13@14:41:31.742+3200] P-7388       T-7376  I BROKER  0: (4282)  Parameter File: Not Enabled. 
+[2020/01/13@14:41:31.742+3200] P-7388       T-7376  I BROKER  0: (9336)  Created shared memory with segment_id: 50855936 
+[2020/01/13@14:41:31.743+3200] P-7388       T-7376  I BROKER  0: (4250)  Before-Image Cluster Size: 524288. 
+[2020/01/13@14:41:31.743+3200] P-7388       T-7376  I BROKER  0: (4251)  Before-Image Block Size: 8192. 
+[2020/01/13@14:41:31.743+3200] P-7388       T-7376  I BROKER  0: (13873) After-image Management Archival Directory List (-aiarcdir): Not Enabled 
+[2020/01/13@14:41:31.743+3200] P-7388       T-7376  I BROKER  0: (13874) Create After-image Management Archival Directory(s) (-aiarcdircreate): Not Enabled 
+[2020/01/13@14:41:31.744+3200] P-7388       T-7376  I BROKER  0: (13872) After-image Management Archival Interval (-aiarcinterval): -1 
+[2020/01/13@14:41:31.744+3200] P-7388       T-7376  I BROKER  0: (4256)  Number of After-Image Buffers (-aibufs): 20 
+[2020/01/13@14:41:31.744+3200] P-7388       T-7376  I BROKER  0: (4254)  After-Image Stall (-aistall): Not Enabled 
+[2020/01/13@14:41:31.745+3200] P-7388       T-7376  I BROKER  0: (17555) Starting index number for statistics range (-baseindex): 1 
+[2020/01/13@14:41:31.745+3200] P-7388       T-7376  I BROKER  0: (17554) Starting table number for statistics range (-basetable): 1 
+[2020/01/13@14:41:31.745+3200] P-7388       T-7376  I BROKER  0: (18406) Starting index number per user for statistics range (-baseuserindex): 1 
+[2020/01/13@14:41:31.746+3200] P-7388       T-7376  I BROKER  0: (18404) Starting table number per user for statistics range (-baseusertable): 1 
+[2020/01/13@14:41:31.746+3200] P-7388       T-7376  I BROKER  0: (4252)  Number of Before-Image Buffers (-bibufs): 20 
+[2020/01/13@14:41:31.746+3200] P-7388       T-7376  I BROKER  0: (6552)  BI File Threshold Stall (-bistall): Disabled. 
+[2020/01/13@14:41:31.747+3200] P-7388       T-7376  I BROKER  0: (9238)  BI File Threshold size (-bithold): 0.0   Bytes 
+[2020/01/13@14:41:31.747+3200] P-7388       T-7376  I BROKER  0: (6573)  Database Blocksize (-blocksize): 4096 
+[2020/01/13@14:41:31.747+3200] P-7388       T-7376  I BROKER  0: (12812) BIW writer delay (-bwdelay): 0 
+[2020/01/13@14:41:31.748+3200] P-7388       T-7376  I BROKER  0: (12813) Allowed index cursors (-c): 84. 
+[2020/01/13@14:41:31.748+3200] P-7388       T-7376  I BROKER  0: (18495) CDC cache size (-cdcsize): 200k bytes 
+[2020/01/13@14:41:31.748+3200] P-7388       T-7376  I BROKER  0: (12265) SSL Certificate Store Path (-certstorepath): Not Enabled 
+[2020/01/13@14:41:31.749+3200] P-7388       T-7376  I BROKER  0: (4264)  Character Set (-cpinternal): ISO8859-1 
+[2020/01/13@14:41:31.749+3200] P-7388       T-7376  I BROKER  0: (-----) C stack print option (-cstackPrintopt): 0
+[2020/01/13@14:41:31.749+3200] P-7388       T-7376  I BROKER  0: (4235)  Physical Database Name (-db): F:\git\awesome\myproject\src\testdb 
+[2020/01/13@14:41:31.750+3200] P-7388       T-7376  I BROKER  0: (18558) Diagnostic directory (-diagDir): Not Enabled 
+[2020/01/13@14:41:31.750+3200] P-7388       T-7376  I BROKER  0: (18576) Diagnostic events value (-diagEvent): LockTable:0,BiThold:0,SysErr:0 
+[2020/01/13@14:41:31.750+3200] P-7388       T-7376  I BROKER  0: (18560) Diagnostic event level (-diagEvtLevel): 0 
+[2020/01/13@14:41:31.751+3200] P-7388       T-7376  I BROKER  0: (18561) Diagnostic field separator (-diagFS): ' ' 
+[2020/01/13@14:41:31.751+3200] P-7388       T-7376  I BROKER  0: (18579) Diagnostic data format (-diagFormat): csv 
+[2020/01/13@14:41:31.751+3200] P-7388       T-7376  I BROKER  0: (18562) Diagnostic pause length (-diagPause): 0 
+[2020/01/13@14:41:31.751+3200] P-7388       T-7376  I BROKER  0: (18563) Diagnostic prefix value (-diagPrefix): diagEvent_ 
+[2020/01/13@14:41:31.752+3200] P-7388       T-7376  I BROKER  0: (4238)  Direct I/O (-directio): Not Enabled 
+[2020/01/13@14:41:31.752+3200] P-7388       T-7376  I BROKER  0: (4236)  Database Type (-dt): PROGRESS 
+[2020/01/13@14:41:31.752+3200] P-7388       T-7376  I BROKER  0: (15218) Encryption cache size (-ecsize): 1000 
+[2020/01/13@14:41:31.753+3200] P-7388       T-7376  I BROKER  0: (12814) Group delay (-groupdelay): 10 
+[2020/01/13@14:41:31.753+3200] P-7388       T-7376  I BROKER  0: (4242)  Hash Table Entries (-hash): 887 
+[2020/01/13@14:41:31.753+3200] P-7388       T-7376  I BROKER  0: (-----) Buffer pool hash table latch percentage (-hashLatchFactor): 10 
+[2020/01/13@14:41:31.754+3200] P-7388       T-7376  I BROKER  0: (4244)  Crash Recovery (-i): Enabled 
+[2020/01/13@14:41:31.754+3200] P-7388       T-7376  I BROKER  0: (17557) Number of indexes included in statistics collection (-indexrangesize): 50 
+[2020/01/13@14:41:31.754+3200] P-7388       T-7376  I BROKER  0: (14268) TCP/IP Version (-ipver): IPV4 
+[2020/01/13@14:41:31.754+3200] P-7388       T-7376  I BROKER  0: (12263) SSL Key Alias Name (-keyalias): Not Enabled 
+[2020/01/13@14:41:31.755+3200] P-7388       T-7376  I BROKER  0: (-----) Database log file archive directory (-lgArchiveDir): Not Enabled 
+[2020/01/13@14:41:31.755+3200] P-7388       T-7376  I BROKER  0: (-----) Archive database log file before truncation (-lgArchiveEnable): Not Enabled 
+[2020/01/13@14:41:31.755+3200] P-7388       T-7376  I BROKER  0: (-----) Frequency of database log file truncation (-lgTruncateFrequency): -1 
+[2020/01/13@14:41:31.756+3200] P-7388       T-7376  I BROKER  0: (-----) The maximum size the database log file can grow before truncation (-lgTruncateSize): 0MB 
+[2020/01/13@14:41:31.756+3200] P-7388       T-7376  I BROKER  0: (-----) Time of day for the database log file truncation (-lgTruncateTime): 00:00 
+[2020/01/13@14:41:31.756+3200] P-7388       T-7376  I BROKER  0: (-----) Limit .lg file payload (-limitLgPayload): Not Enabled
+[2020/01/13@14:41:31.757+3200] P-7388       T-7376  I BROKER  0: (12815) Lock table hash table size (-lkhash): 1237 
+[2020/01/13@14:41:31.757+3200] P-7388       T-7376  I BROKER  0: (17805) Original Lock Release Algorithm (-lkrela): Not Enabled 
+[2020/01/13@14:41:31.757+3200] P-7388       T-7376  I BROKER  0: (17560) Number of LRU force skips (-lruskips): 0 
+[2020/01/13@14:41:31.758+3200] P-7388       T-7376  I BROKER  0: (17561) Number of LRU2 force skips (-lru2skips): 0 
+[2020/01/13@14:41:31.758+3200] P-7388       T-7376  I BROKER  0: (13953) Maximum Area Number (-maxArea): 32000 
+[2020/01/13@14:41:31.758+3200] P-7388       T-7376  I BROKER  0: (12540) Size of JTA transaction table (-maxxids):  100 
+[2020/01/13@14:41:31.758+3200] P-7388       T-7376  I BROKER  0: (5649)  Maximum Port for Auto Servers (-maxport): 5000 
+[2020/01/13@14:41:31.759+3200] P-7388       T-7376  I BROKER  0: (5648)  Minimum Port for Auto Servers (-minport): 3000 
+[2020/01/13@14:41:31.759+3200] P-7388       T-7376  I BROKER  0: (17564) Multi-tenancy partition cache size (-mtpmsize): 1024 
+[2020/01/13@14:41:31.759+3200] P-7388       T-7376  I BROKER  0: (12821) Use muxlatches (-mux): 1 
+[2020/01/13@14:41:31.760+3200] P-7388       T-7376  I BROKER  0: (4260)  Maximum Number of Users (-n): 21 
+[2020/01/13@14:41:31.760+3200] P-7388       T-7376  I BROKER  0: (17566) Minimum time to nap at first -spin exhaustion (-nap): 10 
+[2020/01/13@14:41:31.760+3200] P-7388       T-7376  I BROKER  0: (17565) Maximum time to nap at -spin exhaustion (-napmax): 250 
+[2020/01/13@14:41:31.761+3200] P-7388       T-7376  I BROKER  0: (18522) SSL No Host Verify (-nohostverify): Not Enabled 
+[2020/01/13@14:41:31.761+3200] P-7388       T-7376  I BROKER  0: (17807) Disable LRU mechanism (-nolru): Not Enabled 
+[2020/01/13@14:41:31.761+3200] P-7388       T-7376  I BROKER  0: (12273) SSL No Session Cache (-nosessioncache): Not Enabled 
+[2020/01/13@14:41:31.762+3200] P-7388       T-7376  I BROKER  0: (18521) SSL No Session Reuse (-nosessionreuse): Not Enabled 
+[2020/01/13@14:41:31.762+3200] P-7388       T-7376  I BROKER  0: (16689) Login Governor (-nGovernor): 0 of 21 
+[2020/01/13@14:41:31.762+3200] P-7388       T-7376  I BROKER  0: (18398) Number of checkpoint statistics to record (-numCheckpointStats): 32 
+[2020/01/13@14:41:31.762+3200] P-7388       T-7376  I BROKER  0: (-----) Omit .lg file messages (-omitLgMsgs): 
+[2020/01/13@14:41:31.763+3200] P-7388       T-7376  I BROKER  0: (8527)  Storage object cache size (-omsize): 1024 
+[2020/01/13@14:41:31.763+3200] P-7388       T-7376  I BROKER  0: (13870) Database Service Manager - IPC Queue Size (-pica): 64.0  KBytes 
+[2020/01/13@14:41:31.763+3200] P-7388       T-7376  I BROKER  0: (17802) Shared memory segments locked (-pinshm): Not Enabled 
+[2020/01/13@14:41:31.764+3200] P-7388       T-7376  I BROKER  0: (16953) Use pollset mechanism for client/server (-pollset): Not Enabled 
+[2020/01/13@14:41:31.764+3200] P-7388       T-7376  I BROKER  0: (16955) Delay first prefetch message (-prefetchDelay): Not Enabled 
+[2020/01/13@14:41:31.764+3200] P-7388       T-7376  I BROKER  0: (16956) Prefetch message fill percentage (-prefetchFactor): 0 
+[2020/01/13@14:41:31.765+3200] P-7388       T-7376  I BROKER  0: (16957) Minimum records in prefetch msg (-prefetchNumRecs): 16 
+[2020/01/13@14:41:31.765+3200] P-7388       T-7376  I BROKER  0: (16958) Suspension queue poll priority (-prefetchPriority): 0 
+[2020/01/13@14:41:31.765+3200] P-7388       T-7376  I BROKER  0: (17568) APW queue scan cycle time in milliseconds (-pwqdelay): 100 
+[2020/01/13@14:41:31.766+3200] P-7388       T-7376  I BROKER  0: (17569) APW minimum queue length before write (-pwqmin): 1 
+[2020/01/13@14:41:31.766+3200] P-7388       T-7376  I BROKER  0: (17570) APW buffer scan cycle time in seconds (-pwsdelay): 1 
+[2020/01/13@14:41:31.766+3200] P-7388       T-7376  I BROKER  0: (17571) APW maximum number of buffers to scan per cycle (-pwscan): 5 
+[2020/01/13@14:41:31.766+3200] P-7388       T-7376  I BROKER  0: (17572) APW maximum number of buffers to write per cycle (-pwwmax): 25 
+[2020/01/13@14:41:31.767+3200] P-7388       T-7376  I BROKER  0: (4247)  Before-Image File I/O (-r -R): Reliable 
+[2020/01/13@14:41:31.767+3200] P-7388       T-7376  I BROKER  0: (17563) Record free chain search depth factor (-recspacesearchdepth): 5 
+[2020/01/13@14:41:31.767+3200] P-7388       T-7376  I BROKER  0: (18478) Security cache size (-secsize): 512 
+[2020/01/13@14:41:31.768+3200] P-7388       T-7376  I BROKER  0: (6526)  Number of Semaphore Sets (-semsets): 3 
+[2020/01/13@14:41:31.768+3200] P-7388       T-7376  I BROKER  0: (12264) SSL Session Timeout (-sessiontimeout): 0 
+[2020/01/13@14:41:31.768+3200] P-7388       T-7376  I BROKER  0: (13924) Maximum Shared Memory Segment Size (-shmsegsize): 128 Mb 
+[2020/01/13@14:41:31.769+3200] P-7388       T-7376  I BROKER  0: (4243)  Current Spin Lock Tries (-spin): 24000 
+[2020/01/13@14:41:31.769+3200] P-7388       T-7376  I BROKER  0: (17803) SSL Encryption for TCP/IP connections (-ssl): Not Enabled 
+[2020/01/13@14:41:31.769+3200] P-7388       T-7376  I BROKER  0: (18525) STS Debug Logging Level default (-stslogginglevel): 0 
+[2020/01/13@14:41:31.770+3200] P-7388       T-7376  I BROKER  0: (17556) Number of tables included in statistics collection (-tablerangesize): 50 
+[2020/01/13@14:41:31.770+3200] P-7388       T-7376  I BROKER  0: (18118) User Notification Time (-usernotifytime): 0 seconds 
+[2020/01/13@14:41:31.770+3200] P-7388       T-7376  I BROKER  0: (18407) Number of indexes per user included in statistics collection (-userindexrangesize): 50 
+[2020/01/13@14:41:31.770+3200] P-7388       T-7376  I BROKER  0: (18405) Number of tables per user included in statistics collection (-usertablerangesize): 50 
+[2020/01/13@14:41:31.771+3200] P-7388       T-7376  I BROKER  0: (14017) Area block consistency check (-AreaCheck): Not Enabled 
+[2020/01/13@14:41:31.771+3200] P-7388       T-7376  I BROKER  0: (4239)  Number of Database Buffers (-B): 3000 
+[2020/01/13@14:41:31.771+3200] P-7388       T-7376  I BROKER  0: (17562) Number of Alternate Database Buffers (-B2): 0 
+[2020/01/13@14:41:31.772+3200] P-7388       T-7376  I BROKER  0: (9422)  Maximum private buffers per user (-Bpmax): 64 
+[2020/01/13@14:41:31.772+3200] P-7388       T-7376  I BROKER  0: (14016) Database block consistency check (-DbCheck): Not Enabled 
+[2020/01/13@14:41:31.772+3200] P-7388       T-7376  I BROKER  0: (13869) Database Service Manager - Service(s) to start (-DBService): Not Enabled 
+[2020/01/13@14:41:31.773+3200] P-7388       T-7376  I BROKER  0: (10535) Enhanced Read-Only mode (-ERO): Not Enabled 
+[2020/01/13@14:41:31.773+3200] P-7388       T-7376  I BROKER  0: (4237)  Force Access (-F): Not Enabled 
+[2020/01/13@14:41:31.773+3200] P-7388       T-7376  I BROKER  0: (4249)  Before-Image Truncate Interval (-G): 0 
+[2020/01/13@14:41:31.774+3200] P-7388       T-7376  I BROKER  0: (4261)  Host Name (-H): JV-MOHITLAL 
+[2020/01/13@14:41:31.774+3200] P-7388       T-7376  I BROKER  0: (14018) Index block consistency check (-IndexCheck): Not Enabled 
+[2020/01/13@14:41:31.774+3200] P-7388       T-7376  I BROKER  0: (4241)  Current Size of Lock Table (-L): 8192 
+[2020/01/13@14:41:31.774+3200] P-7388       T-7376  I BROKER  0: (16688) Lock Governor (-LGovernor): 0% 
+[2020/01/13@14:41:31.775+3200] P-7388       T-7376  I BROKER  0: (4257)  Maximum Number of Clients Per Server (-Ma): 5 
+[2020/01/13@14:41:31.775+3200] P-7388       T-7376  I BROKER  0: (14016) Memory overwrite check (-MemCheck): Not Enabled 
+[2020/01/13@14:41:31.775+3200] P-7388       T-7376  I BROKER  0: (4245)  Delay of Before-Image Flush (-Mf): 3 
+[2020/01/13@14:41:31.776+3200] P-7388       T-7376  I BROKER  0: (4259)  Minimum Clients Per Server (-Mi): 1 
+[2020/01/13@14:41:31.776+3200] P-7388       T-7376  I BROKER  0: (12818) Message Buffer Size (-Mm): 1024 
+[2020/01/13@14:41:31.776+3200] P-7388       T-7376  I BROKER  0: (4258)  Maximum Number of Servers (-Mn): 5 
+[2020/01/13@14:41:31.777+3200] P-7388       T-7376  I BROKER  0: (12819) Servers per Protocol (-Mp): 0 
+[2020/01/13@14:41:31.777+3200] P-7388       T-7376  I BROKER  0: (5647)  Maximum Servers Per Broker (-Mpb): 4 
+[2020/01/13@14:41:31.777+3200] P-7388       T-7376  I BROKER  0: (4240)  Excess Shared Memory Size (-Mxs): 23 
+[2020/01/13@14:41:31.777+3200] P-7388       T-7376  I BROKER  0: (4263)  Network Type (-N): TCP 
+[2020/01/13@14:41:31.778+3200] P-7388       T-7376  I BROKER  0: (16954) Server network message wait time (-Nmsgwait): 2 
+[2020/01/13@14:41:31.778+3200] P-7388       T-7376  I BROKER  0: (10357) Pending client connection timeout (-PendConnTimeout): 0 
+[2020/01/13@14:41:31.778+3200] P-7388       T-7376  I BROKER  0: (4262)  Service Name (-S): 40020 
+[2020/01/13@14:41:31.779+3200] P-7388       T-7376  I BROKER  0: (17804) Broker server group support (-ServerType): BOTH 
+[2020/01/13@14:41:31.779+3200] P-7388       T-7376  I BROKER  0: (10028) SQL Server Max Open Cursors (-SQLCursors): 50 
+[2020/01/13@14:41:31.780+3200] P-7388       T-7376  I BROKER  0: (17567) Number of seconds for a SQL client to wait for a record lock(-SQLLockWaitTimeout): 5. 
+[2020/01/13@14:41:31.780+3200] P-7388       T-7376  I BROKER  0: (10026) SQL Server Stack Size (-SQLStack): 1000 
+[2020/01/13@14:41:31.780+3200] P-7388       T-7376  I BROKER  0: (10027) SQL Server Statement Cache Size (-SQLStmtCache): 100 
+[2020/01/13@14:41:31.781+3200] P-7388       T-7376  I BROKER  0: (10029) Size [1K byte units] of SQL Server temp table buffer (-SQLTempStoreBuff): 1000 
+[2020/01/13@14:41:31.781+3200] P-7388       T-7376  I BROKER  0: (10030) Size [1K byte units] of SQL Server temp table disk storage (-SQLTempStoreDisk): 500000 
+[2020/01/13@14:41:31.781+3200] P-7388       T-7376  I BROKER  0: (10031) Size [1K byte units] of SQL Server temp table data page (-SQLTempStorePageSize): 8 
+[2020/01/13@14:41:31.782+3200] P-7388       T-7376  I BROKER  0: (17955) Authorized data truncation (-SQLTruncateTooLarge): OFF 
+[2020/01/13@14:41:31.782+3200] P-7388       T-7376  I BROKER  0: (18156) SQL Autonomous Schema Update (-SQLWidthUpdate): OFF 
+[2020/01/13@14:41:31.782+3200] P-7388       T-7376  I BROKER  0: (14019) Record block consistency check (-TableCheck): Not Enabled 
+[2020/01/13@14:41:31.783+3200] P-7388       T-7376  I BROKER  0: (17717) TXE Lock retry limit (-TXERetryLimit): 0 
+[2020/01/13@14:41:31.783+3200] P-7388       T-7376  I BROKER  0: (13896) TXE Commit lock skip limit (-TXESkipLimit): 10000 
+[2020/01/13@14:41:31.840+3200] P-7388       T-7376  I BROKER  0: (10836) Database connections are not allowed at this time. 
+[2020/01/13@14:41:31.840+3200] P-7388       T-7376  I BROKER  0: (10471) Database connections have been enabled. 
+[2020/01/13@14:41:36.266+3200] P-9760       T-9764  I BIW     5: (-----) Login by SYSTEM.
+[2020/01/13@14:41:36.298+3200] P-9760       T-9764  I BIW     5: (2518)  Started. 
+[2020/01/13@14:41:38.319+3200] P-8184       T-8360  I WDOG    6: (-----) Login by SYSTEM.
+[2020/01/13@14:41:38.327+3200] P-8184       T-8360  I WDOG    6: (2518)  Started. 
+[2020/01/13@14:41:40.260+3200] P-10328      T-10332 I APW     7: (-----) Login by SYSTEM.
+[2020/01/13@14:41:40.263+3200] P-10328      T-10332 I APW     7: (2518)  Started. 
+[2020/01/13@14:41:40.271+3200] P-10340      T-10344 I OEMAGENT8: (452)   Login by SYSTEM on batch. 
+[2020/01/13@14:41:40.272+3200] P-10340      T-10344 I OEMAGENT8: (7129)  Usr 8 set name to DB_Agent. 
+[2020/01/13@14:41:40.281+3200] P-10340      T-10344 I FMAGENT 8: (14262) Successfully connected to AdminServer on port 8846 using TCP/IP IPv4 address 10.0.1.218. 
+[2020/01/13@14:41:40.283+3200] P-10340      T-10344 I FMAGENT 8: (8846)  Registered with Admin Server. 

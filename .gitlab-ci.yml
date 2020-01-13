@@ -1,0 +1,36 @@
+stages:
+  - build
+  - deploy
+  
+build:
+  stage: build
+  script:
+    - pwd
+    - export DLC=/usr/dlc117
+    - echo $DLC
+    - cd myproject/target/oe/
+    - rm -rf *
+    - pwd
+    - cd ../../../
+    - git fetch origin test
+    - git checkout test
+    - git checkout master
+    - git branch -D test
+    - git fetch origin test
+    - git checkout test
+    - ant build
+    - mv myproject/target/oe/* myproject
+    - git add .
+    - git commit -m '[ci skip]Build'
+    - git push https://${GIT_USER}:${GIT_PASS}@git.javra.com/mlal/awesome.git test
+    - git tag -a build-$CI_PIPELINE_ID -m "[skip ci]"
+    - git push https://$GIT_USER:$GIT_PASS@git.javra.com/mlal/awesome.git build-$CI_PIPELINE_ID 
+    - echo 'Build finished and tagged!'
+
+deploy:
+  stage: deploy
+  script:
+    - sshpass -p $SSH_PASS_JAVRA ssh -t -t -o StrictHostKeyChecking=no -o RequestTTY=yes javra@$SSH_IP_JAVRA "cd /home/javra/pct/mohit/awesome/ && sudo git checkout . && sudo git fetch https://$GIT_USER:$GIT_PASS@git.javra.com/mlal/awesome.git tag build-${CI_PIPELINE_ID} && git status && sudo git checkout build-${CI_PIPELINE_ID}"
+    - echo 'Deployed!'
+  when: manual
+

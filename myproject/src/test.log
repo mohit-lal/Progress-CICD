@@ -1,0 +1,19 @@
+
+**  ProxyGen, Progress Version 11.7
+
+** Checking for existence of .r files ...
+
+** Processing non-persistent procedures ...
+
+** Processing: F:\git\awesome\myproject\target\oe\test.r ...
+   -- Parsing r-code ...
+       MAIN F:\git\awesome\myproject\src\oe\test.p 
+   -- No customizations; Validation not necessary
+
+** Processing procedure objects ...
+
+** Checking method and parameter names ...
+   >>ERROR Method name cannot be the same as its AppObject or ProcObject name for .NET proxy: test (in AppObject: test)
+
+** Generation failed
+   Search for '>>ERROR' and '>>WARNING' in this log to find any problems.
