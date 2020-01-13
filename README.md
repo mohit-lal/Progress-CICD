@@ -19,3 +19,9 @@ file and paste in the Apache Ant 1.9.6/bin.
 
 A progress database has been created on the location and the database has been hosted locally by localhost. So all the database related work on PCT may not
 run on local system. Make database and host it in your system likewise. 
+
+Note 
+For the gitlab runner configure it on your own setting and include all the system requirements likewisely and try to register private runner into your system.
+1. Configuring Gitlab Runner https://docs.gitlab.com/ee/ci/runners/
+2. Installing Gitlab Runner https://docs.gitlab.com/runner/install/
+3. Registering Gitlab Runner https://docs.gitlab.com/runner/register/
