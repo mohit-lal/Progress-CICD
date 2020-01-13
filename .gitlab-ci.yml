@@ -22,15 +22,19 @@ build:
     - mv myproject/target/oe/* myproject
     - git add .
     - git commit -m '[ci skip]Build'
-    - git push https://${GIT_USER}:${GIT_PASS}@git.javra.com/mlal/awesome.git test
+    - git push https://${GIT_USER}:${GIT_PASS}@gitlab.com/mzitx/cicd.git test
+    # $GIT_USER & ${GIT_PASS} are the variables for git credentials defined in the settings/variables section. Please write your own variables
     - git tag -a build-$CI_PIPELINE_ID -m "[skip ci]"
-    - git push https://$GIT_USER:$GIT_PASS@git.javra.com/mlal/awesome.git build-$CI_PIPELINE_ID 
+    # $CI_PIPELINE_ID in built variable for each pipeline id
+    - git push https://$GIT_USER:$GIT_PASS@gitlab.com/mzitx/cicd.git build-$CI_PIPELINE_ID 
     - echo 'Build finished and tagged!'
 
 deploy:
   stage: deploy
   script:
-    - sshpass -p $SSH_PASS_JAVRA ssh -t -t -o StrictHostKeyChecking=no -o RequestTTY=yes javra@$SSH_IP_JAVRA "cd /home/javra/pct/mohit/awesome/ && sudo git checkout . && sudo git fetch https://$GIT_USER:$GIT_PASS@git.javra.com/mlal/awesome.git tag build-${CI_PIPELINE_ID} && git status && sudo git checkout build-${CI_PIPELINE_ID}"
+    - sshpass -p $SSH_PASS_SERVER ssh -t -t -o StrictHostKeyChecking=no -o RequestTTY=yes root@$SSH_IP_SERVER "cd /home/user/cicd/ && sudo git checkout . && sudo git fetch https://$GIT_USER:$GIT_PASS@gitlab.com/mzitx/cicd.git tag build-${CI_PIPELINE_ID} && git status && sudo git checkout build-${CI_PIPELINE_ID}" 
+    # $SSH_PASS_JAVRA -> Password for the ssh address
+    # @$SSH_IP_JAVRA -> IP of the server 
     - echo 'Deployed!'
   when: manual
 
