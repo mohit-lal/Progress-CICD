@@ -24,8 +24,10 @@ build:
     - git clean -fd
     - git pull https://${GIT_USER}:${GIT_PASS}@git.javra.com/proponent/proquote.git $branch
     - ant build
+    - cd myproject/Javascript
     - npm run build
     - mv myproject/target/oe/* myproject
+    - cd ..
     - git add .
     - git commit -m '[ci skip]Build'
     - git push https://${GIT_USER}:${GIT_PASS}@gitlab.com/mzitx/cicd.git $branch
@@ -34,6 +36,11 @@ build:
     # $CI_PIPELINE_ID in built variable for each pipeline id
     - git push https://$GIT_USER:$GIT_PASS@gitlab.com/mzitx/cicd.git build-$CI_PIPELINE_ID 
     - echo 'Build finished and tagged!'
+    
+  when: manual
+  only: 
+    - master
+
 
 deploy:
   stage: deploy
@@ -42,5 +49,9 @@ deploy:
     # $SSH_PASS_SERVER -> Password for the ssh address
     # @$SSH_IP_SERVER -> IP of the server 
     - echo 'Deployed!'
+  
   when: manual
+  only: 
+    - master
+
 
