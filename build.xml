@@ -7,24 +7,24 @@
  <target name="build" description="Builds source files">
  <PCTRun procedure="myproject/src/oe/test.p" graphicalMode="true"  />
 
-   <!-- <PCTCompile destDir="myproject/target/oe" dlcHome="${env.DLC}">
+ <PCTCompile destDir="myproject/target/oe" dlcHome="${env.DLC}">
    <fileset dir="myproject/src/oe" includes="*.p" />
-  </PCTCompile>
+ </PCTCompile>
   <PCTProxygen workingDirectory="myproject/src" srcFile="myproject/src/MyApp.xpxg" dlcHome="${env.DLC}" /> 
   <PCTDumpSchema destFile="testdb.df" dlcHome="${env.DLC}">
     <PCTConnection dbName="myproject/src/testdb" />
   </PCTDumpSchema>
-<PCTLoadSchema dlcHome="${env.DLC}">
+ <PCTLoadSchema dlcHome="${env.DLC}">
   <PCTConnection dbName="myproject/src/testdb" />
   <fileset dir="myproject/src/df" includes="*.df" />
-</PCTLoadSchema>
+ </PCTLoadSchema>
 <ABLUnit dlcHome="${env.DLC}">
   <fileset dir="myproject/src/oe/Add" includes="*.p" />
   <fileset dir="myproject/src/oe/Add" includes="*.cls" />
   <propath>
     <pathelement path="myproject/src/oe/Add" />
   </propath>
-</ABLUnit> -->
+</ABLUnit>
  </target>
 </project>
 
