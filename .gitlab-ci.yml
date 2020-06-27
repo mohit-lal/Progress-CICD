@@ -1,3 +1,10 @@
+before_script:
+  - $COMMIT_TIME=$(git show -s --format=%cd $CI_COMMIT_SHA --date=short)
+
+variables: 
+  branch: "master"
+  tag_nmae: "build-master"
+
 stages:
   - build
   - deploy
@@ -5,25 +12,23 @@ stages:
 build:
   stage: build
   script:
-    - pwd
     - export DLC=/usr/dlc117
-    - echo $DLC
     - cd myproject/target/oe/
     - rm -rf *
     - pwd
     - cd ../../../
-    - git fetch origin test
-    - git checkout test
-    - git checkout master
-    - git branch -D test
-    - git fetch origin test
-    - git checkout test
+    - git fetch https://${GIT_USER}:${GIT_PASS}@git.javra.com/proponent/proquote.git $branch
+    - git reset --hard HEAD
+    - git checkout $branch
+    - git reset --hard HEAD
+    - git clean -fd
+    - git pull https://${GIT_USER}:${GIT_PASS}@git.javra.com/proponent/proquote.git $branch
     - ant build
     - npm run build
     - mv myproject/target/oe/* myproject
     - git add .
     - git commit -m '[ci skip]Build'
-    - git push https://${GIT_USER}:${GIT_PASS}@gitlab.com/mzitx/cicd.git test
+    - git push https://${GIT_USER}:${GIT_PASS}@gitlab.com/mzitx/cicd.git $branch
     # $GIT_USER & ${GIT_PASS} are the variables for git credentials defined in the settings/variables section. Please write your own variables
     - git tag -a build-$CI_PIPELINE_ID -m "[skip ci]"
     # $CI_PIPELINE_ID in built variable for each pipeline id
@@ -33,7 +38,7 @@ build:
 deploy:
   stage: deploy
   script:
-    - sshpass -p $SSH_PASS_SERVER ssh -t -t -o StrictHostKeyChecking=no -o RequestTTY=yes root@$SSH_IP_SERVER "cd /home/user/cicd/ && sudo git checkout . && sudo git fetch https://$GIT_USER:$GIT_PASS@gitlab.com/mzitx/cicd.git tag build-${CI_PIPELINE_ID} && git status && sudo git checkout build-${CI_PIPELINE_ID}" 
+    - sshpass -p $SSH_PASS_SERVER ssh -t -t -o StrictHostKeyChecking=no -o RequestTTY=yes root@$SSH_IP_SERVER "cd /home/user/cicd/ && sudo git checkout . && sudo git fetch https://$GIT_USER:$GIT_PASS@gitlab.com/mzitx/cicd.git tag build-${CI_PIPELINE_ID} && git clean -fd && git reset -hard head && git status && sudo git checkout build-${CI_PIPELINE_ID}" 
     # $SSH_PASS_SERVER -> Password for the ssh address
     # @$SSH_IP_SERVER -> IP of the server 
     - echo 'Deployed!'
