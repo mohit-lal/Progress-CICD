@@ -25,3 +25,16 @@ For the gitlab runner configure it on your own setting and include all the syste
 1. Configuring Gitlab Runner https://docs.gitlab.com/ee/ci/runners/
 2. Installing Gitlab Runner https://docs.gitlab.com/runner/install/
 3. Registering Gitlab Runner https://docs.gitlab.com/runner/register/
+
+This CICD process try to complete tasks in progress system.
+Some of the tasks that are tried to accomplish is:
+1. Run a .p file (progress file)
+2. Compile .p file thus generating .r file.
+3. Generate dll using compiled sources.
+4. Dump db schema for the db.
+5. Load df schema into db.
+6. Run unit test.
+
+Also another thing that is being used to accomplish is npm run build which will build bundle js and used for dotnet.
+
+Also msbuild is being incorporated in the yaml script.
