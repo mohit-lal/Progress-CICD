@@ -1,6 +1,7 @@
 # CICD
 
-A CICD project which includes Progress Open Edge 4gl both front-end and back-end building, testing and deployment stage. 
+A CICD (Continuous Integration and Continuous Delivery/Deployment) project which includes Progress Open Edge 4gl both front-end and back-end building, testing and deployment stage.
+This project uses local server instead of Docker so Putty is being used to connect with the servers. This project assumes that the gitlab runner is being setup in the Linux server.
 
 #System Requirements:
 The following project runs on the configuration that has been listed below.
@@ -37,4 +38,4 @@ Some of the tasks that are tried to accomplish is:
 
 Also another thing that is being used to accomplish is npm run build which will build bundle js and used for dotnet.
 
-Also msbuild is being incorporated in the yaml script.
+Also msbuild is being incorporated in the yaml script file and is being doen for the dotnet part.
