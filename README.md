@@ -1,4 +1,4 @@
-# CICD
+# Progress CICD
 
 A CICD (Continuous Integration and Continuous Delivery/Deployment) project which includes Progress Open Edge 4gl both front-end and back-end building, testing and deployment stage.
 This project uses local server instead of Docker so Putty is being used to connect with the servers. This project assumes that the gitlab runner is being setup in the Linux server.
